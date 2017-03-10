@@ -1,0 +1,52 @@
+﻿@model ShoppingBasketViewModel
+
+@if (Model.ShoppingBasketTotal > 1)
+{
+    <h2>Your shopping Basket</h2>
+    <h4>Here are the delicious coffees in your shopping Basket.</h4>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Quantity</th>
+                <th>Coffee</th>
+                <th class="text-right">Price</th>
+                <th class="text-right">Subtotal</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var line in Model.ShoppingBasket.ShoppingBasketItems)
+            {
+                <tr>
+                    <td class="text-center">
+                        <a class="btn btn-info" asp-controller="ShoppingBasket" asp-action="AddMoreCoffee">+</a>
+                        @line.Quantity
+                        <a class="btn btn-primary" asp-controller="ShoppingBasket" asp-action="AddLessCoffee">-</a>
+                    </td>
+                    <td class="text-left">@line.Coffee.Name</td>
+                    <td class="text-right">@line.Coffee.Price.ToString("c")</td>
+                    <td class="text-right">
+                        @((line.Quantity * line.Coffee.Price).ToString("c"))
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="text-right"><strong>Total</strong></td>
+                <td class="text-right">
+                    <strong>@Model.ShoppingBasketTotal.ToString("c")</strong>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div class="text-center">
+        <a class="btn btn-primary" asp-controller="Order" asp-action="Checkout">Check out</a>
+    </div>
+
+}
+else
+{
+    <h2>Oops!</h2>
+    <h4>Your shopping basket looks empty, please add some coffees into the basket to be delivered to your home.</h4>
+}

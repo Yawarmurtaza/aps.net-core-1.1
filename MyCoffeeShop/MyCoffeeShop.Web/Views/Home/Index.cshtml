@@ -1,0 +1,10 @@
+﻿@model IEnumerable<Coffee>
+
+@await Html.PartialAsync("Carousel")
+<h2>Coffees of the week</h2>
+<h4>Our weekly selection - just for you!</h4>
+
+@foreach (Coffee nextCoffee in Model)
+{
+    @await Html.PartialAsync("CoffeeSummary", nextCoffee)
+}

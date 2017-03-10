@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Domain Model", "1. Domain Model", "{C8185AB7-DBE2-42F1-B3C0-A3564EC47DBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Data Access", "2. Data Access", "{94084943-FA65-493F-8F58-4D06D614FE3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. UI", "4. UI", "{7C8D65DE-7EFA-4568-BE81-61AB8674A9B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCoffeeShop.Web", "MyCoffeeShop.Web\MyCoffeeShop.Web.csproj", "{00C675E2-6C5A-4184-BE1C-FBFDA1D59BF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCoffeeShop.DataAccess", "MyCoffeeShop.DataAccess\MyCoffeeShop.DataAccess.csproj", "{E44EC0B1-6DA6-453E-9A28-879342B8B39F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCoffeeShop.DomainModel", "MyCoffeeShop.DomainModel\MyCoffeeShop.DomainModel.csproj", "{1FCC02AD-0C9A-46DD-BA73-45465D987B3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Service Manager", "3. Service Manager", "{F06C7078-82F1-4EC7-BCEB-EA6E355ABD85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCoffeeShop.ServiceManagers", "MyCoffeeShop.ServiceManagers\MyCoffeeShop.ServiceManagers.csproj", "{FD1DAEA6-7AEA-4FE8-A158-FD02404DD2DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 Unit Tests", "5 Unit Tests", "{A9A78292-7BA2-4A23-A8AB-EC9BF4DBD421}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCoffeeShop.Web.Tests", "MyCoffeeShop.Web.Tests\MyCoffeeShop.Web.Tests.csproj", "{36C80F21-1297-4613-803F-09872E3D1F09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00C675E2-6C5A-4184-BE1C-FBFDA1D59BF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C675E2-6C5A-4184-BE1C-FBFDA1D59BF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C675E2-6C5A-4184-BE1C-FBFDA1D59BF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C675E2-6C5A-4184-BE1C-FBFDA1D59BF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E44EC0B1-6DA6-453E-9A28-879342B8B39F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E44EC0B1-6DA6-453E-9A28-879342B8B39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E44EC0B1-6DA6-453E-9A28-879342B8B39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E44EC0B1-6DA6-453E-9A28-879342B8B39F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FCC02AD-0C9A-46DD-BA73-45465D987B3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FCC02AD-0C9A-46DD-BA73-45465D987B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FCC02AD-0C9A-46DD-BA73-45465D987B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FCC02AD-0C9A-46DD-BA73-45465D987B3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD1DAEA6-7AEA-4FE8-A158-FD02404DD2DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD1DAEA6-7AEA-4FE8-A158-FD02404DD2DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD1DAEA6-7AEA-4FE8-A158-FD02404DD2DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD1DAEA6-7AEA-4FE8-A158-FD02404DD2DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36C80F21-1297-4613-803F-09872E3D1F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C80F21-1297-4613-803F-09872E3D1F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C80F21-1297-4613-803F-09872E3D1F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C80F21-1297-4613-803F-09872E3D1F09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{00C675E2-6C5A-4184-BE1C-FBFDA1D59BF6} = {7C8D65DE-7EFA-4568-BE81-61AB8674A9B1}
+		{E44EC0B1-6DA6-453E-9A28-879342B8B39F} = {94084943-FA65-493F-8F58-4D06D614FE3A}
+		{1FCC02AD-0C9A-46DD-BA73-45465D987B3E} = {C8185AB7-DBE2-42F1-B3C0-A3564EC47DBB}
+		{FD1DAEA6-7AEA-4FE8-A158-FD02404DD2DA} = {F06C7078-82F1-4EC7-BCEB-EA6E355ABD85}
+		{36C80F21-1297-4613-803F-09872E3D1F09} = {A9A78292-7BA2-4A23-A8AB-EC9BF4DBD421}
+	EndGlobalSection
+EndGlobal

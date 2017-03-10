@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.6": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6": []
+  },
+  "packageFolders": {
+    "C:\\Users\\Developer\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Development\\VS\\MyCoffeeShop\\MyCoffeeShop.DomainModel\\MyCoffeeShop.DomainModel.csproj",
+      "projectName": "MyCoffeeShop.DomainModel",
+      "projectPath": "E:\\Development\\VS\\MyCoffeeShop\\MyCoffeeShop.DomainModel\\MyCoffeeShop.DomainModel.csproj",
+      "outputPath": "E:\\Development\\VS\\MyCoffeeShop\\MyCoffeeShop.DomainModel\\obj\\",
+      "projectStyle": "PackageReference",
+      "originalTargetFrameworks": [
+        "net46"
+      ],
+      "frameworks": {
+        "net46": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net46": {}
+    }
+  }
+}

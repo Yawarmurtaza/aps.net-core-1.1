@@ -1,0 +1,21 @@
+﻿
+@model IEnumerable<CoffeeCategory>
+
+<li class="dropdown">
+    <a asp-controller="Coffee" asp-action="Index" class="dropdown-toggle" data-toggle="dropdown">
+        Coffees
+        <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+        @foreach (CoffeeCategory nextCat in @Model)
+        {
+            <li>                
+                <a asp-controller="Coffee" asp-action="ListCoffeesByCategoryName" asp-route-coffeeCategoryName="@nextCat.Name">@nextCat.Name</a>
+            </li>
+        }
+        <li class="divider"></li>
+        <li>
+            <a asp-controller="Coffee" asp-action="List">View All</a>
+        </li>
+    </ul>
+</li>

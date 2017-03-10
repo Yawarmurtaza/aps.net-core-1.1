@@ -1,0 +1,10 @@
+E:\Development\VS\MyCoffeeShop\MyCoffeeShop.DataAccess\bin\Debug\net46\MyCoffeeShop.DataAccess.dll
+E:\Development\VS\MyCoffeeShop\MyCoffeeShop.DataAccess\bin\Debug\net46\MyCoffeeShop.DataAccess.pdb
+E:\Development\VS\MyCoffeeShop\MyCoffeeShop.DataAccess\bin\Debug\net46\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Development\VS\MyCoffeeShop\MyCoffeeShop.DataAccess\bin\Debug\net46\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Development\VS\MyCoffeeShop\MyCoffeeShop.DataAccess\bin\Debug\net46\MyCoffeeShop.DomainModel.dll
+E:\Development\VS\MyCoffeeShop\MyCoffeeShop.DataAccess\bin\Debug\net46\MyCoffeeShop.DomainModel.pdb
+E:\Development\VS\MyCoffeeShop\MyCoffeeShop.DataAccess\obj\Debug\net46\MyCoffeeShop.DataAccess.csprojResolveAssemblyReference.cache
+E:\Development\VS\MyCoffeeShop\MyCoffeeShop.DataAccess\obj\Debug\net46\MyCoffeeShop.DataAccess.AssemblyInfo.cs
+E:\Development\VS\MyCoffeeShop\MyCoffeeShop.DataAccess\obj\Debug\net46\MyCoffeeShop.DataAccess.dll
+E:\Development\VS\MyCoffeeShop\MyCoffeeShop.DataAccess\obj\Debug\net46\MyCoffeeShop.DataAccess.pdb

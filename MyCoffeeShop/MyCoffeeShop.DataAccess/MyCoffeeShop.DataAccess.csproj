@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net46</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EnterpriseLibrary.Data" Version="6.0.1304" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyCoffeeShop.DomainModel\MyCoffeeShop.DomainModel.csproj" />
+  </ItemGroup>
+
+</Project>

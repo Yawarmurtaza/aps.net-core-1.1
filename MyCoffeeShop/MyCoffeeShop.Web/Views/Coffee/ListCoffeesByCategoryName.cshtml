@@ -1,0 +1,6 @@
+﻿@model IEnumerable<Coffee>
+
+@foreach (Coffee nextCoffee in Model)
+{
+    @await Html.PartialAsync("CoffeeSummary", nextCoffee)
+}

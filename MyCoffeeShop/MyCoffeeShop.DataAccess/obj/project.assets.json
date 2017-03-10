@@ -1,0 +1,115 @@
+{
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.6": {
+      "EnterpriseLibrary.Common/6.0.1304": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/NET45/Microsoft.Practices.EnterpriseLibrary.Common.dll": {}
+        },
+        "runtime": {
+          "lib/NET45/Microsoft.Practices.EnterpriseLibrary.Common.dll": {}
+        }
+      },
+      "EnterpriseLibrary.Data/6.0.1304": {
+        "type": "package",
+        "dependencies": {
+          "EnterpriseLibrary.Common": "6.0.0"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/NET45/Microsoft.Practices.EnterpriseLibrary.Data.dll": {}
+        },
+        "runtime": {
+          "lib/NET45/Microsoft.Practices.EnterpriseLibrary.Data.dll": {}
+        }
+      },
+      "MyCoffeeShop.DomainModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6"
+      }
+    }
+  },
+  "libraries": {
+    "EnterpriseLibrary.Common/6.0.1304": {
+      "sha512": "w/ua1PWAQD1/CnJ+qz/5APgmqI/1YnbamnwFGSotm7b66sFIkrnfLC+9+WzcSZWnePwwUw3Pl2QsLVDyX7NwaQ==",
+      "type": "package",
+      "path": "enterpriselibrary.common/6.0.1304",
+      "files": [
+        "EnterpriseLibrary.Common.6.0.1304.nupkg.sha512",
+        "EnterpriseLibrary.Common.nuspec",
+        "EnterpriseLibrary.Configuration.xsd",
+        "Update-EntlibConfiguration.ps1",
+        "lib/NET45/Microsoft.Practices.EnterpriseLibrary.Common.dll",
+        "lib/NET45/Microsoft.Practices.EnterpriseLibrary.Common.xml",
+        "tools/Utils.psm1",
+        "tools/install.ps1"
+      ]
+    },
+    "EnterpriseLibrary.Data/6.0.1304": {
+      "sha512": "FmaIrwbO7qOg0hd6rESeltyxcOccBa9V5QXPQ/4vMzpqZXh457uiJcwV4Xtx8q1zFhiGq1AszYjWP1p69Qps+w==",
+      "type": "package",
+      "path": "enterpriselibrary.data/6.0.1304",
+      "files": [
+        "EnterpriseLibrary.Data.6.0.1304.nupkg.sha512",
+        "EnterpriseLibrary.Data.nuspec",
+        "Readme.txt",
+        "lib/NET45/Microsoft.Practices.EnterpriseLibrary.Data.dll",
+        "lib/NET45/Microsoft.Practices.EnterpriseLibrary.Data.xml",
+        "tools/Utils.psm1",
+        "tools/install.ps1"
+      ]
+    },
+    "MyCoffeeShop.DomainModel/1.0.0": {
+      "type": "project",
+      "path": "../MyCoffeeShop.DomainModel/MyCoffeeShop.DomainModel.csproj",
+      "msbuildProject": "../MyCoffeeShop.DomainModel/MyCoffeeShop.DomainModel.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6": [
+      "EnterpriseLibrary.Data >= 6.0.1304",
+      "MyCoffeeShop.DomainModel >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Developer\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Development\\VS\\MyCoffeeShop\\MyCoffeeShop.DataAccess\\MyCoffeeShop.DataAccess.csproj",
+      "projectName": "MyCoffeeShop.DataAccess",
+      "projectPath": "E:\\Development\\VS\\MyCoffeeShop\\MyCoffeeShop.DataAccess\\MyCoffeeShop.DataAccess.csproj",
+      "outputPath": "E:\\Development\\VS\\MyCoffeeShop\\MyCoffeeShop.DataAccess\\obj\\",
+      "projectStyle": "PackageReference",
+      "originalTargetFrameworks": [
+        "net46"
+      ],
+      "frameworks": {
+        "net46": {
+          "projectReferences": {
+            "E:\\Development\\VS\\MyCoffeeShop\\MyCoffeeShop.DomainModel\\MyCoffeeShop.DomainModel.csproj": {
+              "projectPath": "E:\\Development\\VS\\MyCoffeeShop\\MyCoffeeShop.DomainModel\\MyCoffeeShop.DomainModel.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net46": {
+        "dependencies": {
+          "EnterpriseLibrary.Data": {
+            "target": "Package",
+            "version": "6.0.1304"
+          }
+        }
+      }
+    }
+  }
+}

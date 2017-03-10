@@ -1,0 +1,17 @@
+﻿@model Coffee
+
+<div class="thumbnail">
+    <img alt="@Model.Name" src="@Model.ImageUrl">
+    <div class="caption-full">
+        <h3 class="pull-right">@Model.Price</h3>
+        <h3>
+            <a href="#">@Model.Name</a>
+        </h3>
+        <h4>@Model.ShortDesc</h4>
+        <p>@Model.LongDesc</p>
+        <p class="button">
+            <a class="btn btn-primary" asp-controller="ShoppingBasket" asp-action="AddToShoppingBasket"
+               asp-route-coffeeId="@Model.Id">Add to Basket</a>
+        </p>
+    </div>
+</div>

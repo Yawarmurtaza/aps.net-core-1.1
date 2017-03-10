@@ -1,0 +1,7 @@
+E:\Development\VS\MyCoffeeShop\MyCoffeeShop.ServiceManagers\bin\Debug\netstandard1.4\MyCoffeeShop.ServiceManagers.deps.json
+E:\Development\VS\MyCoffeeShop\MyCoffeeShop.ServiceManagers\bin\Debug\netstandard1.4\MyCoffeeShop.ServiceManagers.dll
+E:\Development\VS\MyCoffeeShop\MyCoffeeShop.ServiceManagers\bin\Debug\netstandard1.4\MyCoffeeShop.ServiceManagers.pdb
+E:\Development\VS\MyCoffeeShop\MyCoffeeShop.ServiceManagers\obj\Debug\netstandard1.4\MyCoffeeShop.ServiceManagers.csprojResolveAssemblyReference.cache
+E:\Development\VS\MyCoffeeShop\MyCoffeeShop.ServiceManagers\obj\Debug\netstandard1.4\MyCoffeeShop.ServiceManagers.AssemblyInfo.cs
+E:\Development\VS\MyCoffeeShop\MyCoffeeShop.ServiceManagers\obj\Debug\netstandard1.4\MyCoffeeShop.ServiceManagers.dll
+E:\Development\VS\MyCoffeeShop\MyCoffeeShop.ServiceManagers\obj\Debug\netstandard1.4\MyCoffeeShop.ServiceManagers.pdb

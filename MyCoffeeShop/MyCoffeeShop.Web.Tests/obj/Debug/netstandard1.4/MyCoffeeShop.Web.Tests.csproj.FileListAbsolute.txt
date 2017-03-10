@@ -1,0 +1,7 @@
+E:\Development\VS\MyCoffeeShop\MyCoffeeShop.Web.Tests\bin\Debug\netstandard1.4\MyCoffeeShop.Web.Tests.deps.json
+E:\Development\VS\MyCoffeeShop\MyCoffeeShop.Web.Tests\bin\Debug\netstandard1.4\MyCoffeeShop.Web.Tests.dll
+E:\Development\VS\MyCoffeeShop\MyCoffeeShop.Web.Tests\bin\Debug\netstandard1.4\MyCoffeeShop.Web.Tests.pdb
+E:\Development\VS\MyCoffeeShop\MyCoffeeShop.Web.Tests\obj\Debug\netstandard1.4\MyCoffeeShop.Web.Tests.csprojResolveAssemblyReference.cache
+E:\Development\VS\MyCoffeeShop\MyCoffeeShop.Web.Tests\obj\Debug\netstandard1.4\MyCoffeeShop.Web.Tests.AssemblyInfo.cs
+E:\Development\VS\MyCoffeeShop\MyCoffeeShop.Web.Tests\obj\Debug\netstandard1.4\MyCoffeeShop.Web.Tests.dll
+E:\Development\VS\MyCoffeeShop\MyCoffeeShop.Web.Tests\obj\Debug\netstandard1.4\MyCoffeeShop.Web.Tests.pdb
